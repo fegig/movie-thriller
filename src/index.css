@@ -17,9 +17,6 @@ html{
   color: var(--color-text-primary);
 }
 
-body{
-  @apply pl-2 pt-4;
-}
 
 i{
   @apply flex items-center justify-center;
