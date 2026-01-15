@@ -8,7 +8,7 @@ const Body = () => {
             <Sidebar />
         </aside>
         <section className="col-span-11">
-          <div className="px-8 py-4">
+          <div className="pl-8 pt-4">
             <Outlet />
           </div>
         </section>
