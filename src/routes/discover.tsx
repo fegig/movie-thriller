@@ -28,7 +28,7 @@ const Discover = () => {
                     <p className="text-white/50 text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam esse voluptas a aspernatur porro itaque maxime, sapiente nemo consequatur rem iusto ullam sed perferendis similique vitae. Doloribus harum consectetur consequatur?</p>
 
                     {pageData.map((item) => (
-                        <div className="gap-2">
+                        <div className="gap-2" key={item.title}>
                             <span className="text-white/50 text-sm uppercase tracking-widest">{item.title}</span>
                             <div className="flex items-center gap-2 flex-wrap">
                                 {item.items.map((item) => {

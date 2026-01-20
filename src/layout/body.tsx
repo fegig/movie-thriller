@@ -1,8 +1,11 @@
 import { Outlet } from "react-router"
 import Sidebar from "./sidebar"
+import Header from "./header"
 
 const Body = () => {
   return (
+    <>
+    <Header />
     <main className="grid grid-cols-12 bg-background-primary">
         <aside className="col-span-1">
             <Sidebar />
@@ -13,6 +16,7 @@ const Body = () => {
           </div>
         </section>
     </main>
+    </>
   )
 }
 
